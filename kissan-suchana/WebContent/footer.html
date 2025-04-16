@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>KISSAN SUCHANA</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #fdfdfd;
+        }
+
+        footer {
+            background-color: #006400;
+            color: white;
+            padding: 40px 10px 20px;
+            border-top-left-radius: 30px;
+            border-top-right-radius: 30px;
+            box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.2);
+            max-width: 100%;
+        }
+
+        footer h5 {
+            font-size: 20px;
+            margin-bottom: 15px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        footer p {
+            font-size: 14px;
+            line-height: 1.6;
+        }
+
+        .footer-bottom {
+            font-size: 13px;
+            color: #e0e0e0;
+            margin-top: 25px;
+        }
+
+        .form-control {
+            border-radius: 8px;
+            margin-bottom: 10px;
+            border: none;
+            padding: 8px;
+            font-size: 14px;
+            transition: all 0.3s ease-in-out;
+            color: white; /* Ensuring the text is white */
+            background-color: transparent; /* Transparent background */
+            border: 1px solid white; /* White border for inputs */
+        }
+
+        .form-control:focus {
+            box-shadow: 0 0 10px #90ee90;
+            outline: none;
+        }
+
+        .btn-success {
+            background-color: #34a853;
+            border: none;
+            border-radius: 20px;
+            padding: 8px 20px;
+            font-size: 14px;
+            font-weight: bold;
+            transition: 0.3s ease-in-out;
+        }
+
+        .btn-success:hover {
+            background-color: #2c7d46;
+            transform: scale(1.05);
+        }
+
+        .glyphicon {
+            margin-right: 6px;
+            color: #d4edda;
+            transition: transform 0.3s ease;
+        }
+
+        .glyphicon:hover {
+            transform: scale(1.2);
+            color: #ffffff;
+        }
+
+        @media (max-width: 768px) {
+            footer {
+                text-align: center;
+                padding: 30px 15px 15px;
+            }
+
+            footer h5, footer p {
+                text-align: center;
+            }
+
+            .btn-success {
+                width: 100%;
+            }
+        }
+
+        /* Animation Styles */
+        .animated {
+            animation-duration: 1s;
+            animation-fill-mode: both;
+        }
+
+        @keyframes fadeInLeft {
+            from { opacity: 0; transform: translateX(-30px); }
+            to { opacity: 1; transform: translateX(0); }
+        }
+
+        @keyframes fadeInRight {
+            from { opacity: 0; transform: translateX(30px); }
+            to { opacity: 1; transform: translateX(0); }
+        }
+
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .fadeInLeft { animation-name: fadeInLeft; }
+        .fadeInRight { animation-name: fadeInRight; }
+        .fadeInUp { animation-name: fadeInUp; }
+
+        /* Ensure all footer text is white */
+        footer,
+        footer h5,
+        footer p,
+        footer .form-control,
+        footer .form-control::placeholder,
+        footer textarea::placeholder {
+            color: white;
+        }
+
+        footer .form-control::placeholder {
+            color: #f0f0f0; /* Light white for placeholder */
+            opacity: 1;
+        }
+
+        footer textarea::placeholder {
+            color: #f0f0f0;
+            opacity: 1;
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- Footer Section -->
+<footer class="footer">
+    <div class="container text-center text-md-left">
+        <div class="row">
+
+            <!-- About -->
+            <div class="col-md-4 col-sm-12 animated fadeInLeft">
+                <h5><span class="glyphicon glyphicon-leaf"></span> KISSAN SUCHANA</h5>
+                <p>
+                    Kissan Suchana is a farmer-friendly digital platform that supports agricultural growth by
+                    providing real-time guidance on farming practices, fertilizer usage, irrigation techniques,
+                    crop health, market rates, and more in regional languages through text, audio, and video.
+                </p>
+            </div>
+
+            <!-- Contact -->
+            <div class="col-md-4 col-sm-12 animated fadeInUp">
+                <h5><span class="glyphicon glyphicon-earphone"></span> Contact Us</h5>
+                <p><span class="glyphicon glyphicon-map-marker"></span> Hyderabad, India</p>
+                <p><span class="glyphicon glyphicon-phone"></span> +91 9900112211001</p>
+                <p><span class="glyphicon glyphicon-envelope"></span> kissansuchana12@gmail.com</p>
+                <p><span class="glyphicon glyphicon-copyright-mark"></span> 2025 Kissan Suchana</p>
+            </div>
+
+            <!-- Feedback Form -->
+            <div class="col-md-4 col-sm-12 animated fadeInRight">
+                <h5><span class="glyphicon glyphicon-comment"></span> Send Feedback</h5>
+                <form action="fansMessage" method="post">
+                    <input type="text" class="form-control" name="name" placeholder="Your Name" required>
+                    <input type="email" class="form-control" name="email" placeholder="Your Email" required>
+                    <textarea class="form-control" name="comments" rows="3" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn btn-success">Send Message</button>
+                </form>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom text-center mt-4">
+            <hr style="border-top: 1px solid #ccc;">
+            <p>© 2025 <strong>Kissan Suchana</strong> | Empowering Farmers with Knowledge</p>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
