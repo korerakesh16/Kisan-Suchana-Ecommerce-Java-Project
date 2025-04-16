@@ -21,7 +21,7 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/91934/OneDrive/Desktop/2026 projects/TrainTicketReservationSystem/Train-Ticket-Reservation-System/target/TrainBook-1.0.0-SNAPSHOT/WEB-INF/lib/mysql-connector-java-8.0.28.jar"/>
+	<classpathentry kind="lib" path="C:/Users/91934/OneDrive/Desktop/2026 projects/lib/mysql-connector-java-8.0.28.jar"/>
 	<classpathentry kind="src" path="target/generated-sources/annotations">
 		<attributes>
 			<attribute name="optional" value="true"/>
