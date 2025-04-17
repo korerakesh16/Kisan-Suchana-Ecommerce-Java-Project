@@ -14,3 +14,32 @@ Checkout and payment (Demo purpose)
 Order tracking and shipping status
 Email notifications for users
 Admin Dashboard for product & order management
+
+Technologies Used
+Front-End:
+HTML
+CSS
+JavaScript
+Bootstrap
+
+Back-End:
+Java (JDK 18+)
+JSP & Servlets
+JDBC
+Database:
+MySQL
+
+Build & Server Tools:
+Apache Maven
+Tomcat 8.5+
+Eclipse EE
+
+Software & Tools Required
+Git
+Java JDK 18+
+Eclipse (Enterprise Edition)
+Apache Maven
+Tomcat v8.0+
+MySQL Server
+MySQL Workbench
+
