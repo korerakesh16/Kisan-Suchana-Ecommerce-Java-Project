@@ -6,7 +6,7 @@ About the Project
 Kisan Suchana is a fully functional agricultural e-commerce website built to help farmers and agriculture businesses buy fertilizers, pesticides, and other related products online with ease.
 Users can register and log in, browse a wide range of products, filter them by categories, add them to their cart, and place orders just like any modern e-commerce platform. This project is designed to digitally empower the agricultural community by making essential farming products accessible from anywhere.
 
-Key Functionalities
+Key Functionalities:
 User Registration & Login
 Add to Cart with quantity adjustment
 Product search and category-based filtering
