@@ -62,6 +62,5 @@ Right-click project > Run on Server
 Choose Tomcat v8.0+ and follow setup
 If Tomcat is already configured:
 Just Run on Server > Add project > Finish
-Then, visit:
-📍 http://localhost:8080/kisan-suchana/
+Then, visit:http://localhost:8080/kisan-suchana/
 
