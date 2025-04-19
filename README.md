@@ -64,3 +64,8 @@ If Tomcat is already configured:
 Just Run on Server > Add project > Finish
 Then, visit:http://localhost:8080/kisan-suchana/
 
+USER INTERFACE:
+![admin_home_page](https://github.com/user-attachments/assets/f3e81e18-fb88-4c03-ade3-f3197705b6e9)
+
+
+
