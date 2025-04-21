@@ -54,7 +54,6 @@
             text-align: center;
             vertical-align: middle !important;
         }
-
         table.table-hover tbody tr:hover {
             background-color: #f1f1f1;
             transition: background-color 0.3s ease;
