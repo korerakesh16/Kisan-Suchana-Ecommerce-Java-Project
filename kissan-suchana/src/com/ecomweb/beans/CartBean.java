@@ -1,7 +1,6 @@
 package com.ecomweb.beans;
 
 import java.io.Serializable;
-
 @SuppressWarnings("serial")
 public class CartBean implements Serializable {
 
