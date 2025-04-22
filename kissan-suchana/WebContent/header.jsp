@@ -181,12 +181,12 @@ if (userType == null) {
                 <li><a href="index.jsp">Products</a></li>
                 <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Category <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li><a href="index.jsp?type=mobile">Pesticides</a></li>
-                        <li><a href="index.jsp?type=tv">Fertilizers</a></li>
-                        <li><a href="index.jsp?type=laptop">Market Rates</a></li>
-                        <li><a href="index.jsp?type=camera">Organic Pesticides</a></li>
-                        <li><a href="index.jsp?type=speaker">Travelling Goods</a></li>
-                        <li><a href="index.jsp?type=tablet">Customer</a></li>
+                        <li><a href="index.jsp?type=Pesticides">Pesticides</a></li>
+                        <li><a href="index.jsp?type=Fertilizers">Fertilizers</a></li>
+                        <li><a href="index.jsp?type=Market Rates">Market Rates</a></li>
+                        <li><a href="index.jsp?type=Organic Pesticides">Organic Pesticides</a></li>
+                        <li><a href="index.jsp?type=Travelling Goods">Travelling Goods</a></li>
+                        <li><a href="index.jsp?type=Customer">Customer</a></li>
                     </ul>
                 </li>
             </ul>
@@ -209,12 +209,12 @@ int notf = new CartServiceImpl().getCartCount((String) session.getAttribute("use
                 <li><a href="userHome.jsp">Products</a></li>
                 <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Category <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li><a href="userHome.jsp?type=mobile">Pesticides</a></li>
-                        <li><a href="userHome.jsp?type=tv">Fertilizers</a></li>
-                        <li><a href="userHome.jsp?type=laptop">Market Rates</a></li>
-                        <li><a href="userHome.jsp?type=camera">Organic Pesticides</a></li>
-                        <li><a href="userHome.jsp?type=speaker">Travelling Goods</a></li>
-                        <li><a href="userHome.jsp?type=tablet">Customer</a></li>
+                        <li><a href="userHome.jsp?type=Pesticides">Pesticides</a></li>
+                        <li><a href="userHome.jsp?type=Fertilizers">Fertilizers</a></li>
+                        <li><a href="userHome.jsp?type=Market Rates">Market Rates</a></li>
+                        <li><a href="userHome.jsp?type=Organic Pesticides">Organic Pesticides</a></li>
+                        <li><a href="userHome.jsp?type=Travelling Goods">Travelling Goods</a></li>
+                        <li><a href="userHome.jsp?type=Customer">Customer</a></li>
                     </ul>
                 </li>
                 <% if (notf == 0) { %>
@@ -243,12 +243,12 @@ int notf = new CartServiceImpl().getCartCount((String) session.getAttribute("use
                 <li><a href="adminViewProduct.jsp">Products</a></li>
                 <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Category <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li><a href="adminViewProduct.jsp?type=mobile">Pesticides</a></li>
-                        <li><a href="adminViewProduct.jsp?type=tv">Fertilizers</a></li>
-                        <li><a href="adminViewProduct.jsp?type=laptop">Market Rates</a></li>
-                        <li><a href="adminViewProduct.jsp?type=camera">Organic Pesticides</a></li>
-                        <li><a href="adminViewProduct.jsp?type=speaker">Travelling Goods</a></li>
-                        <li><a href="adminViewProduct.jsp?type=tablet">Customer</a></li>
+                        <li><a href="adminViewProduct.jsp?type=Pesticides">Pesticides</a></li>
+                        <li><a href="adminViewProduct.jsp?type=Fertilizers">Fertilizers</a></li>
+                        <li><a href="adminViewProduct.jsp?type=Market Rates">Market Rates</a></li>
+                        <li><a href="adminViewProduct.jsp?type=Organic Pesticides">Organic Pesticides</a></li>
+                        <li><a href="adminViewProduct.jsp?type=Travelling Goods">Travelling Goods</a></li>
+                        <li><a href="adminViewProduct.jsp?type=Customer">Customer</a></li>
                     </ul>
                 </li>
                 <li><a href="adminStock.jsp">Stock</a></li>
