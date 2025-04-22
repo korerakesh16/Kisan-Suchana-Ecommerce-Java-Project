@@ -138,14 +138,14 @@
 	List<ProductBean> products = new ArrayList<ProductBean>();
 
 	String search = request.getParameter("search");
-	String type = request.getParameter("type");
+	String type = request.getParameter("");
 	String message = "All Products";
 	if (search != null) {
 		products = prodDao.searchAllProducts(search);
 		message = "Showing Results for '" + search + "'";
 	} else if (type != null) {
-		products = prodDao.getAllProductsByType(type);
-		message = "Showing Results for '" + type + "'";
+		products = prodDao.getAllProductsByType("");
+		message = "Showing Results for ";
 	} else {
 		products = prodDao.getAllProducts();
 	}
