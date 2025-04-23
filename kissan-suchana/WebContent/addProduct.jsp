@@ -32,14 +32,12 @@
         50% { background-position: 100% 50%; }
         100% { background-position: 0% 50%; }
     }
-
     .text-center {
         font-size: 20px;
         font-weight: bold;
         color: #2c3e50;
         margin: 20px 0;
     }
-
     .form-container {
         margin-top: 30px;
         background-color: #e8fbe8;
