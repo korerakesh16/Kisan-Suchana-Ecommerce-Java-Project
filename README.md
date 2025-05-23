@@ -29,35 +29,35 @@ JDBC
 ## Database:
 MySQL  
 
-Build & Server Tools:
-Apache Maven
-Tomcat 8.5+
-Eclipse EE
+## Build & Server Tools:
+Apache Maven  
+Tomcat 8.5+  
+Eclipse EE  
 
-Software & Tools Required:
-Git
-Java JDK 18+
-Eclipse (Enterprise Edition)
-Apache Maven
-Tomcat v8.0+
-MySQL Server
-MySQL Workbench
+## Software & Tools Required:
+Git  
+Java JDK 18+  
+Eclipse (Enterprise Edition)  
+Apache Maven  
+Tomcat v8.0+  
+MySQL Server  
+MySQL Workbench  
 
-How to Run the Project:
-Step 1: Clone the Repository
-git clone <your-github-repo-url>
-Step 2: Import into Eclipse
+## How to Run the Project:
+## Step 1: Clone the Repository  
+git clone <your-github-repo-url>  
+## Step 2: Import into Eclipse  
 File > Import > Git > Projects from Git > Clone URI
 Paste the repo URL, select the master branch, and finish import.
-Step 3: Configure Properties
-Go to src > application.properties and update:
-db.username and db.password
-mailer.email and mailer.password with Gmail and app password
-Step 4: Maven Build
+## Step 3: Configure Properties
+Go to src > application.properties and update:  
+db.username and db.password  
+mailer.email and mailer.password with Gmail and app password  
+## Step 4: Maven Build
 Right-click on the project > Run As > Maven Build
 Goals: clean install > Apply > Run
-Step 5: Server Configuration
-If Tomcat is not yet configured:
+## Step 5: Server Configuration
+If Tomcat is not yet configured:  
 Right-click project > Run on Server
 Choose Tomcat v8.0+ and follow setup
 If Tomcat is already configured:
